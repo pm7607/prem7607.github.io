@@ -1,4 +1,4 @@
-/* The basic stuff to make it work */
+
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +21,7 @@
 .container form {
   box-sizing: border-box;
   text-align: center;
-  padding: 22px;
+  padding: 1%;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -40,7 +40,7 @@
 }
 .container form input {
   height: 0;
-  margin: 12px 0;
+  margin: 79% 0;
   z-index: 1;
 }
 .container form input:checked {
@@ -51,10 +51,10 @@
   content: "";
   position: absolute;
   display: inline-block;
-  width: 8px;
-  height: 8px;
+  width: 0.4rem;
+  height: 0.4rem;
   border: 1px solid rgba(255, 255, 255, 0.81);
-  border-radius: 11px;
+  border-radius: 100%;
   cursor: pointer;
   -webkit-transition: all 0.25s linear;
   transition: all 0.25s linear;
@@ -68,7 +68,7 @@
   left: 30px;
   opacity: 0;
   color: white;
-  font-size: 15px;
+  font-size: 35%;
   display: block;
   min-width: 80px;
   -webkit-transition: all 0.25s linear;
@@ -154,11 +154,9 @@
   background-color: #000000;
   color: white !important;
 }
-
-/* Fancy style */
 body {
   font-family: "Quicksand", sans-serif;
-  font-size: 21px;
+  font-size: 92%;
   font-weight: 100;
   color: white;
 }
@@ -170,10 +168,10 @@ body {
 }
 .content .block {
   width: inherit;
-  font-size: 17px;
+  font-size: 150%;
   font-weight: 400;
   line-height: 1.5;
-  margin: 42px 0;
+  margin: 2% 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -183,39 +181,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.content .block span, .content .block span i {
-  margin: 0 42px;
+.content .block span, .content .block span p, .content .block span i {
+  margin: 0 2%;
 }
-.content .block span i {
-  margin-bottom: 22px;
-}
-.content .block span i:before {
-  font-size: 36px;
-}
-
 .Slide:nth-child(even) .content .block {
   color: #717171;
 }
-
-.icon {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  font-size: 17px;
-  text-align: center;
-  line-height: 1.5;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 #Slide5 .content .block {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -223,11 +194,9 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-#Slide5 .content .block i {
-  margin: 0 12px;
-  vertical-align: middle;
+#Slide5 h1{
+  padding-bottom: 3vh;
 }
-
 strong {
   font-weight: 400;
 }
@@ -252,9 +221,9 @@ a:hover {
 }
 
 .phota{
-  width: 48px;
-  height: 48px;
-  margin:  10px; 
+  width: 6vw;
+  height: 6vh;
+  margin:  0 2% 0 0; 
 }
 .pratik{
   width: 33%;
